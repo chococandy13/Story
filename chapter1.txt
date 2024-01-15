@@ -1,0 +1,9 @@
+git init - to initialize a git repo
+
+git status - to get the status of the dir
+
+ls - list files
+
+ls -a -- list hidden file too
+
+git add - add it to staging area and track changes.
