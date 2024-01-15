@@ -7,3 +7,17 @@ ls - list files
 ls -a -- list hidden file too
 
 git add - add it to staging area and track changes.
+
+git commit -m -- to commit changes with a message(-m)
+
+git log - to see the commits made.
+
+git add . - to add all files in the staging area.
+
+git diff - to show diff btwn previously commited version.
+
+git checkout - to go back to previous version of a file.
+
+git remote add orgin [link] - creates a remote to push local repo to github.
+
+git push -u 
