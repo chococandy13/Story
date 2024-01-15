@@ -1,2 +1,60 @@
 But I'm the shadows.
 I was born in it.
+
+
+SURYA B.S@Heisenberg MINGW64 ~/Documents/Wed Development    
+$ cd "back-end/Story"
+
+SURYA B.S@Heisenberg MINGW64 ~/Documents/Wed Development/back-end/Story (alien-plot)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'orgin/main'.
+
+SURYA B.S@Heisenberg MINGW64 ~/Documents/Wed Development/back-end/Story (main)
+$ touch chapter4.txt
+
+SURYA B.S@Heisenberg MINGW64 ~/Documents/Wed Development/back-end/Story (main)
+$ code chapter4.txt
+
+SURYA B.S@Heisenberg MINGW64 ~/Documents/Wed Development/back-end/Story (main)
+$ git add .
+
+SURYA B.S@Heisenberg MINGW64 ~/Documents/Wed Development/back-end/Story (main)
+$ git commit -m "Complete chapter4
+> "
+[main 7cceab2] Complete chapter4
+ 1 file changed, 1 insertion(+)
+ create mode 100644 chapter4.txt
+
+SURYA B.S@Heisenberg MINGW64 ~/Documents/Wed Development/back-end/Story (main)
+$ git status
+On branch main
+Your branch is ahead of 'orgin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+SURYA B.S@Heisenberg MINGW64 ~/Documents/Wed Development/back-end/Story (main)
+$ git checkout alien-plot
+Switched to branch 'alien-plot'
+
+SURYA B.S@Heisenberg MINGW64 ~/Documents/Wed Development/back-end/Story (alien-plot)
+$ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'orgin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+SURYA B.S@Heisenberg MINGW64 ~/Documents/Wed Development/back-end/Story (main)
+$ git merge alien-plot
+Merge made by the 'ort' strategy.
+ chapter2.txt | 3 ++-
+ chapter3.txt | 3 ++-
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+
+SURYA B.S@Heisenberg MINGW64 ~/Documents/Wed Development/back-end/Story (main)
+$ git branch
+  alien-plot
+* main
+
+SURYA B.S@Heisenberg MINGW64 ~/Documents/Wed Development/back-end/Story (main)
+$
